@@ -1,0 +1,18 @@
+.rootStyle {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #165654, rgb(9, 9, 19));
+  /* background-image:  url(./bookstore.png); */
+}
+.cardStyle{
+    align-items:center;
+    height: 60vh;
+    position:absolute;
+    top:20vh;
+    width:50vh;
+    border:1px solid black;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+}
